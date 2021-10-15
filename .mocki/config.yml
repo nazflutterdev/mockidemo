@@ -6748,7 +6748,7 @@ endpoints:
             }
         }
 
-  - path: /userservice
+  - path: /rentservice
     method: post
     graphql:
       schema:

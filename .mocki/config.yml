@@ -14563,7 +14563,8 @@ endpoints:
             }
           Mutation :
             {
-              addLease : {
+              addLease :
+                {
                 "id": "7d9f885d-27a8-4537-a824-252536eaa01d",
                 "userID": "ae058b95-5ed4-454f-9b66-8e33356e19df",
                 "status": "INACTIVE",
@@ -14629,7 +14630,7 @@ endpoints:
                                       "rentPaymentTransactions": [],
                                       "created": "0001-01-01T00:00:00.000",
                                       "modified": "2021-10-01T14:46:30.000",
-                                      "note": null,
+                                      "note": "",
                                       "reportingType": "BACK_REPORTING",
                                       "leaseID": "7d9f885d-27a8-4537-a824-252536eaa01d",
                                       "reportedDate": null
@@ -14642,7 +14643,7 @@ endpoints:
                                       "rentPaymentTransactions": [],
                                       "created": "0001-01-01T00:00:00.000",
                                       "modified": "2021-10-01T14:46:30.000",
-                                      "note": null,
+                                      "note": "",
                                       "reportingType": "BACK_REPORTING",
                                       "leaseID": "7d9f885d-27a8-4537-a824-252536eaa01d",
                                       "reportedDate": null
@@ -14655,7 +14656,7 @@ endpoints:
                                       "rentPaymentTransactions": [],
                                       "created": "0001-01-01T00:00:00.000",
                                       "modified": "2021-10-01T14:46:30.000",
-                                      "note": null,
+                                      "note": "",
                                       "reportingType": "BACK_REPORTING",
                                       "leaseID": "7d9f885d-27a8-4537-a824-252536eaa01d",
                                       "reportedDate": null

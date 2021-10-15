@@ -4570,9 +4570,15 @@ endpoints:
         {
           Query:
             {
-              creditScore: {
-                "score":"800",
-                "datePulled":"2021-04-19"
-              }
+              creditScore:
+                {
+                  "score":"800",
+                  "datePulled":"2021-04-19"
+                }
+            },
+          Mutation:
+            {
+              saveFinancialLiteracyEpisodeProgress: {"audioProgressInSeconds":0,"completed":false,"saved":true},
+              saveFinancialLiteracyLessonProgress: {"episodesCompleted":2,"completed":false,"saved":true}
             }
         }

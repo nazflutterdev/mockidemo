@@ -6744,7 +6744,20 @@ endpoints:
           Mutation:
             {
               saveFinancialLiteracyEpisodeProgress: {"audioProgressInSeconds":0,"completed":false,"saved":true},
-              saveFinancialLiteracyLessonProgress: {"episodesCompleted":2,"completed":false,"saved":true}
+              saveFinancialLiteracyLessonProgress: {"episodesCompleted":2,"completed":false,"saved":true},
+              updateUserPersonalInformation: {
+                "firstName": "Joe",
+                "lastName": "Someone",
+                "dateOfBirth": "",
+                "ssn": "123456789",
+                "phone": "1234567890",
+                "addressGoogleID": "1234567",
+                "addressLineOne": "123 Some Ave",
+                "addressLineTwo": "Apt 123",
+                "addressCity": "Sunnyvale",
+                "addressState": "CA",
+                "addressZipCode": "94086",
+              },
             }
         }
 

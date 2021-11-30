@@ -6745,6 +6745,12 @@ endpoints:
             {
               saveFinancialLiteracyEpisodeProgress: {"audioProgressInSeconds":0,"completed":false,"saved":true},
               saveFinancialLiteracyLessonProgress: {"episodesCompleted":2,"completed":false,"saved":true},
+              verifyMFA: {
+                "sessionID": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+                "idToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+              },
               updateUserPersonalInformation: {
   "id": "ae058b95-5ed4-454f-9b66-8e33356e19df",
   "created":"2021-07-09T17:21:24.000",
@@ -20546,7 +20552,7 @@ endpoints:
                    "verificationStatus": "VERIFIED"
                  }
                 ]
-            ,
+              ,
               bankTransactions:
                 [{
                    "id": "3c3beb71-7167-418e-ba17-d43ba2ffc172",

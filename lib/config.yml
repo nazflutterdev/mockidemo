@@ -6767,7 +6767,7 @@ endpoints:
   "userSettings":{
     "hideMainInsights":false,"require2FA":true,"remindersEmail":false,"remindersMobile":false,"promotionsEmail":false,"promotionsMobile":false,"policyEmail":false,"policyMobile":false},
   "userDevices":[],"identityEvaluations":[]
-},
+}
             }
         }
 

@@ -6751,6 +6751,29 @@ endpoints:
                 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
                 "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
               },
+              registerUser: {
+                  "id": "ae058b95-5ed4-454f-9b66-8e33356e19df",
+  "created":"2021-07-09T17:21:24.000",
+  "modified":"2021-07-09T17:30:19.000",
+  "lastLogin":"2021-09-22T12:34:48.000",
+  "identityVerificationStatus":"APPROVED",
+  "email":"Alan+3011@getperch.app",
+  "phone":"9094552665",
+  "firstName":"Alan",
+  "lastName":"Chang",
+  "dateOfBirth":"2000-04-02",
+  "addressGoogleID":"",
+  "addressLineOne":"4461 Lick MIll Blvd",
+  "addressLineTwo":"",
+  "addressCity":"Santa Clara",
+  "addressState":"CA",
+  "addressZipCode":"12312",
+  "finLitCompleted":false,
+  "approvedForUse":false,
+  "userSettings":{
+    "hideMainInsights":false,"require2FA":true,"remindersEmail":false,"remindersMobile":false,"promotionsEmail":false,"promotionsMobile":false,"policyEmail":false,"policyMobile":false},
+  "userDevices":[],"identityEvaluations":[]
+              },
               updateUserPersonalInformation: {
   "id": "ae058b95-5ed4-454f-9b66-8e33356e19df",
   "created":"2021-07-09T17:21:24.000",

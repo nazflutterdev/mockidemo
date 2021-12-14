@@ -20788,7 +20788,7 @@ endpoints:
     graphql:
       schema:
         {
-  "__schema": {
+    "__schema": {
     "queryType": {
       "name": "Query"
     },
@@ -22923,7 +22923,22 @@ endpoints:
       }
     ]
   }
-}
+        }
+      mocks: 
+      {
+        Mutation: 
+        {
+          addDevice: 
+          {
+            "mobileDevice": 
+            {
+              "userID": "test",
+              "deviceID": "test",
+              "deviceType": "test",
+            }
+          }
+        }
+      }
 
   - path: /transferservice
     method: post

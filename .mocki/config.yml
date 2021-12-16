@@ -20788,25 +20788,25 @@ endpoints:
     graphql:
       schema:
         {
-    "__schema": {
-    "queryType": {
-      "name": "Query"
-    },
-    "mutationType": {
-      "name": "Mutation"
-    },
-    "subscriptionType": null,
-    "types": [
-      {
-        "kind": "SCALAR",
-        "name": "Date",
-        "description": null,
-        "fields": null,
-        "inputFields": null,
-        "interfaces": null,
-        "enumValues": null,
-        "possibleTypes": null
-      },
+          "__schema": {
+          "queryType": {
+            "name": "Query"
+          },
+          "mutationType": {
+          "name": "Mutation"
+          },
+          "subscriptionType": null,
+          "types": [
+            {
+              "kind": "SCALAR",
+              "name": "Date",
+              "description": null,
+              "fields": null,
+              "inputFields": null,
+              "interfaces": null,
+              "enumValues": null,
+              "possibleTypes": null
+          },
       {
         "kind": "SCALAR",
         "name": "DateTime",
@@ -22930,12 +22930,11 @@ endpoints:
         {
           addDevice: 
           {
-            "mobileDevice": 
-            {
               "userID": "test",
               "deviceID": "test",
               "deviceType": "test",
-            }
+              "active": true,
+              "created": ""
           }
         }
       }

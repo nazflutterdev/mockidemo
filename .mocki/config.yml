@@ -1,7 +1,7 @@
 name: mocki
 port: 3000
 endpoints:
-  - path: /userservice
+  - path: /perch
     method: post
     graphql:
       schema:

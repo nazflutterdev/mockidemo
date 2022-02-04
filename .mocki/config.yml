@@ -8311,8 +8311,6 @@ endpoints:
                   "card": {
                     "id": "36a8ef75-8604-415d-84f7-aa84e9bb8538",
                     "state": "ACTIVE",
-                    "CardProvider": "LITHIC",
-                    "cardholderProviderId": "b3493513-f917-4cef-994f-ab6164aa3400",
                     "token": "bca02259-57fa-4d89-94f2-f79edce56b77",
                     "pan": "4111111455937493",
                     "cvv": "512",

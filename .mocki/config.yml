@@ -31438,6 +31438,26 @@ endpoints:
             ]
           }
         }
+      mocks:
+        {
+          Query:
+            {
+              IsReferralCodeValid:
+                {
+                  "errors": [
+                    {
+                      "message": "no referral code found",
+                      "locations": [ { "line": 6, "column": 7 } ],
+                      "path": [ "isReferralCodeValid" ],
+                      "extensions": {
+                        "code": "DOWNSTREAM_SERVICE_ERROR",
+                        "traceID": "1b355a21-7117-44c5-8d8b-8948082f40a8"
+                      }
+                    }
+                  ]
+                },
+            }
+        }
 
 
 

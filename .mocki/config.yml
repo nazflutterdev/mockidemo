@@ -31442,7 +31442,7 @@ endpoints:
         {
           Query:
             {
-              IsReferralCodeValid:
+              isReferralCodeValid:
                 {
                     "naseem" : true
                 }
